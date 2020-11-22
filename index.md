@@ -1,7 +1,7 @@
 ---
 title: Meus Projetos
 feature_text: |
-  ## Bem-vindo seja mas traga dados.
+  ## Seja bem-vindo, mas traga dados.
    Brincadeira =)
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Esses são projetos que desenvolvi para estudo ou trabalho disponibilizados no meu repositório do GitHub para consulta."

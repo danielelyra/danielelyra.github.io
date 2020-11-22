@@ -6,7 +6,7 @@ feature_image: "https://picsum.photos/2560/600?image=505"
 excerpt: "Daniele Lyra é economista e cientista de dados"
 aside: true
 ---
-{% include figure.html image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRuYJtL5_sHB1fg-bBu7rdTYoU1tblVx_lHNw&usqp=CAU" position="left" width="300" height="800" %}
+{% include figure.html image="/assets/images/me.jpeg" position="left" width="200" height="300" %}
 
 <small> Olá! Fico feliz por você querer saber mais sobre mim e minha trajetória.</small>
 
