@@ -35,19 +35,19 @@ plugins:
 - jemoji
 
 # 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
+paginate: 10 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
-jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
-twitter:
-  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
-author: DavidDarnes # jekyll-seo-tag > default author
-social: # jekyll-seo-tag > social overrides
-  name: David Darnes # jekyll-seo-tag > real name
-  links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://github.com/daviddarnes
+# jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
+# twitter:
+#   username: DavidDarnes # jekyll-seo-tag > Owners twitter username
+# author: DavidDarnes # jekyll-seo-tag > default author
+# social: # jekyll-seo-tag > social overrides
+#   name: David Darnes # jekyll-seo-tag > real name
+#   links:  # jekyll-seo-tag > social aliases (sameAs)
+#     - https://twitter.com/DavidDarnes
+#     - https://www.facebook.com/daviddarnes
+#     - https://www.linkedin.com/in/daviddarnes
+#     - https://github.com/daviddarnes
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
@@ -63,11 +63,11 @@ timezone: America/Sao_Paulo # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Posts # Needed for Siteleaf
-    output: true
-    description: "My thoughts and ideas" # The post list page content
-    feature_text: |
-      Welcome to the blog
+    # title: Posts # Needed for Siteleaf
+    # output: true
+    # description: "My thoughts and ideas" # The post list page content
+    # feature_text: |
+    #   Welcome to the blog
     feature_image: "https://picsum.photos/2560/600?image=866"
 
 # 6. Jekyll collections settings
@@ -98,7 +98,7 @@ logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Daniele Lyra" # Site description and default description, also used in jekyll-seo-tag
 url: "https://danielelyra.com" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-repo: "https://github.com/Dlyra"
+repo: "https://github.com/danielelyra"
 email: "lyra_daniele@hotmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # google_analytics: ''
@@ -119,14 +119,14 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 
 # 9. Site navigation
 navigation_header:
-- title: Daniele Lyra
-  url: /
+# - title: Daniele Lyra
+#   url: /
 - title: Sobre
   url: /sobre/
 - title: Blog
   url: /blog/
-- title: Categorias
-  url: /categorias/
+- title: Contato
+  url: /contato/
 - title: Busca
   url: /busca/
 
@@ -138,6 +138,7 @@ social_links: # Appears in sidebar. Set the urls then uncomment and comment out 
   #Twitter: https://twitter.com/DavidDarnes
   LinkedIn: https://www.linkedin.com/in/danielelyra
   GitHub: https://github.com/Dlyra
+  Telegram: https://t.me/danielelyra
   #link: https://darn.es
   #RSS: /feed.xml
 

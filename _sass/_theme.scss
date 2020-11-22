@@ -65,7 +65,12 @@ body {
   @include flexbox;
   @include align-items(center);
   img {
-    max-height: 2rem;
+    max-height: 1.5rem;
+  }
+  h1{
+    margin-left: 10px;
+    font-size: 28px;
+    color: #079065;
   }
 }
 
@@ -79,6 +84,9 @@ body {
   }
 }
 
+.contact-social-nav .nav{padding-top:0
+
+}
 .small {
   padding-top: .8rem;
   color: $captionColour;
@@ -298,6 +306,10 @@ video {
     right: 0;
     clip: rect(0 0 0 0);
   }
+}
+
+.top-margin{
+  margin-top:20px
 }
 
 button,
