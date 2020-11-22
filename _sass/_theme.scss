@@ -65,7 +65,7 @@ body {
   @include flexbox;
   @include align-items(center);
   img {
-    max-height: 5rem;
+    max-height: 2rem;
   }
 }
 
@@ -140,9 +140,23 @@ body {
     width: 62%;
   }
 }
-
+.share{ 
+  display: flex;
+}
 .share .button {
-  margin-right: .3rem;
+  margin: 0 ;
+  margin-right: .9rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding: 0px;
+  width: 40px;
+
+  .icon{
+    margin: 0;
+  }
 }
 
 .aside {
@@ -295,7 +309,7 @@ input[type="submit"],
 input[type="color"],
 textarea,
 select {
-  padding: .6rem 1.2rem;
+  padding: .3rem 1.2rem;
   margin-bottom: .6rem;
   transition: color .1s, background-color .1s, border .1s;
   line-height: inherit;
@@ -312,6 +326,10 @@ input[type="submit"],
 button,
 .button {
   cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  height: 32px;
+  padding: 0 10px;
   display: inline-block;
   color: $backgroundColour;
   background: $accentColour;
