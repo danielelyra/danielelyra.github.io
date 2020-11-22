@@ -4,13 +4,13 @@ feature_text: |
   ## Bem-vindo seja mas traga dados.
    Brincadeira =)
 feature_image: "https://picsum.photos/1300/400?image=989"
-excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
+excerpt: "Esses são projetos que desenvolvi para estudo ou trabalho disponibilizados no meu repositório do GitHub para consulta."
 #aside: true
 ---
 Esses são projetos que desenvolvi para estudo ou trabalho disponibilizados no meu repositório do GitHub para consulta.
 
 
-<!-- {% include button.html text="GitHub" icon="github" link="https://github.com/Dlyra" color="#24292e" %} {% include button.html text="Linkedin" icon="linkedin" link="https://www.linkedin.com/in/danielelyra/" color="#0d94e7" %} {% include button.html text="Resume ⚗️" link="https://github.com/daviddarnes/alembic#installation" %}  -->
+<!-- {% include button.html text="GitHub" icon="github" link="https://github.com/danielelyra" color="#24292e" %} {% include button.html text="Linkedin" icon="linkedin" link="https://www.linkedin.com/in/danielelyra/" color="#0d94e7" %} {% include button.html text="Resume ⚗️" link="https://github.com/daviddarnes/alembic#installation" %}  -->
 
 <!-- ## Features
 

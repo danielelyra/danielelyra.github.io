@@ -3,7 +3,7 @@
 feature_text: |
   ## Quem sou eu?
 feature_image: "https://picsum.photos/2560/600?image=505"
-excerpt: "A demo of Markdown and HTML includes"
+excerpt: "Daniele Lyra é economista e cientista de dados"
 aside: true
 ---
 {% include figure.html image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRuYJtL5_sHB1fg-bBu7rdTYoU1tblVx_lHNw&usqp=CAU" position="left" width="300" height="800" %}
